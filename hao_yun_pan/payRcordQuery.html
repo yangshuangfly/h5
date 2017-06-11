@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src='js/zepto.min.js'></script>
+</head>
+<body>
+	<div class='container'>
+			<header class='exist'>	
+				<a href="javascript:history.go(-1);" class='headerArr'></a>
+				<span>查询支付记录</span>
+			</header>
+			<article class='recharge commonCell exRcQuery'>
+				<div class='newGap lh32'>订单时间:</div>	
+				<form action="">
+					<div class='cell borNone'>
+						<div class="clearFix">
+							<div class="timeToTime">
+								<span class='timeBlock'>
+									<label>
+										<input class='timeFrom' type="date" />
+										<i class="smallArr"></i>	
+									</label>
+									至
+									<label>
+										<input class='timeFrom' type="date" />
+										<i class="smallArr"></i>	
+									</label>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class='cell'>
+						<a class="clearFix commonGap" href='#none' onclick="grayLayer4()">
+							<div class="left">支付类型</div>
+							<div class="right">请选择支付类型 <i class='smallArr'></i></div>
+						</a>
+					</div>
+					<div class='confirmMoney'>
+						<input class='btn' type="submit" value="查询">
+					</div>
+				</form>
+			</article>
+	</div>
+	<div class="content" style='display:none;'>
+
+	</div>
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>

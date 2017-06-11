@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],input[type="reset"],input[type="button"],input{-webkit-appearance:none; resize: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+
+/*pad.css开始了*/
+body{background:url(../images/bg2.jpg) no-repeat center top;}
+#con .up li:nth-child(2){
+	margin-bottom:4px;
+}
+#con .up li:nth-child(3){
+	margin-bottom:10px;
+}
+#header{
+	width:100%;
+}
+#header h1{
+	display:none;
+}
+#nav{
+	width:100%;
+	height:60px;
+	font-size: 14px;
+}
+#nav .left{
+	display:none;
+}
+#nav .right{
+	display:none;
+}
+#nav ul{
+	width:100%;
+}
+#nav ul li{
+	width:11.1111%;
+	padding:0;
+	text-align:center;
+}
+#banner{
+	width:100%;
+	height:auto;
+}
+#con{
+	width:100%;
+	height:auto;
+}
+#con .up{
+	height:auto;
+	border:0px;
+	width:100%;
+}
+#con .up li{
+	width:47.5%;
+	background:-webkit-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-ms-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-moz-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-o-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:linear-gradient(0deg, #f1f1f1, #fafafa);
+	border:1px solid #ccc;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	height:auto;
+}
+#con .down{
+	background:none;
+	height:auto;
+	width:100%;
+}
+.down .down01,.down02,.down03{margin:4px auto;}
+.down .down01{
+	position:relative;
+	float:none;
+	background:#f6f6f6;
+	width:98%;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	margin-top:10px;
+/*	margin-left:9px;*/
+	min-height:175px;
+}
+.down .down01 dd{
+	float:none;
+	width:100%;
+	font-weight:bold;
+	padding-left: 150px;
+	box-sizing: border-box;
+	font-size:18px;
+}
+.down .down01 dt{
+	position: absolute;
+	top:75px;
+	left:30px;
+}
+.down .down02{
+	width:98%;
+	float:none;
+	background:#f6f6f6;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	overflow:hidden;
+/*	margin-left:9px;*/
+	margin-top:10px;
+}
+.down .down02 ul{
+	padding:0px;
+}
+.down .down02 li{
+	width:33.3333%;
+	margin-right:0px;
+}
+.down .down02 li img{
+		display:block;
+	margin: 0 auto;
+}
+.down .down03{
+	width:98%;
+	float:none;
+	background:#f6f6f6;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	overflow:hidden;
+/*	margin-left:9px;*/
+	margin-top:10px;
+}
+.down .down03 p{
+	padding-left:30px;
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom: 15px;
+}
+#sub_nav{
+	width:98%;
+	background:#cccccc;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px auto;
+	height:auto;
+}
+#sub_nav a{
+		display:inline-block;
+}
+#footer{
+	width:98%;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	margin:10px auto;
+	min-height:130px;
+	line-height:130px;
+}
+.footer_in{
+	width:100%;
+}
+#footer p{
+	font-weight:bold;
+	margin-left:10px;
+	font-size:14px;
+}

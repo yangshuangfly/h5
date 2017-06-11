@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src='js/zepto.min.js'></script>
+</head>
+<body>
+	<div class='container'>
+			<header class='exist'>	
+				<a href="javascript:history.go(-1);" class='headerArr'></a>
+				<span>在线充值</span>
+				<div class="rightBtns clearFix">
+					<a class="newsIcon" href='newsList.html'></a>
+				</div>
+			</header>
+			<article class='recharge commonCell'>
+				<form action="">
+					<div class='cell'>
+						<div class="clearFix commonGap">
+							<div class="left">账户金额</div>
+							<div class="right">10.00元</div>
+						</div>
+					</div>
+					<div class='cell'>
+						<a class="clearFix commonGap" href='#none' ontouchstart="grayLayer2('支付宝支付','微信支付','取消')">
+							<div class="left">充值方式</div>
+							<div class="right"><span id="twoPayCon">选择充值方式</span> <i class='smallArr'></i></div>
+						</a>
+					</div>
+					<div class='cell'>
+						<div class="clearFix commonGap">
+							<div class="left">充值金额</div>
+							<div class="right"><input type="text" class='rechargeNum' placeholder='请填写金额'></div>
+						</div>
+					</div>
+					<div class='confirmMoney'>
+						<input class='btn' type="submit" value="确认金额">
+					</div>
+				</form>
+			</article>	
+	</div>
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>

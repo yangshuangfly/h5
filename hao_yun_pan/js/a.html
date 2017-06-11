@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>js</title>
+	<script src="zepto.min.js"></script>
+</head>
+<style>
+	body{position:relative;}
+	#div1{border:1px solid red;width:54px;height:44px;position:absolute;top:50%;left:50%;}
+</style>
+<body>
+	<div></div>
+	<input type="button" onclick="f1()"/>
+</body>
+</html>
+<script type="text/javascript">
+		function f1(){
+		$('html,body').css({'overflow':'hidden'});
+		$('body').prepend( f2());
+		}
+
+		function f2(){
+			return "<div id='div1'>aaaa</div>";
+		}
+</script>

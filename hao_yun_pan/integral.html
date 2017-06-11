@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src='js/zepto.min.js'></script>
+</head>
+<body>
+	<div class='container'>
+			<header class='exist'>	
+				<a href="javascript:history.go(-1);" class='headerArr'></a>
+				<span>积分</span>
+			</header>
+			<article class='recharge commonCell integral'>
+				<form action="">
+					<div class="integralTitle commonGap newGap">
+						<span class="banlanceCount">
+							账户余额：<span id="bcount">10.00元</span>
+						</span>
+						<dl class='clearFix'>
+							<dt>
+								<img src="images/integral.png" alt="">
+							</dt>
+							<dd>2000点</dd>
+						</dl>
+					</div>
+					<div class='cell newGap'>
+						<div class="clearFix commonGap">
+							<div class="left">账户余额</div>
+							<div class="right">10.00元</div>
+						</div>
+					</div>
+					<div class='cell newGap'>
+						<div class="clearFix commonGap">
+							<div class="left">支出</div>
+							<div class="right"><input type="text" class='rechargeNum' placeholder='请填写支出金额'></div>
+						</div>
+					</div>
+					<div class='confirmMoney'>
+						<input class='btn' type="button" value="兑换" onclick='integralExchange()'>
+					</div>
+				</form>
+			</article>	
+	</div>
+	
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>

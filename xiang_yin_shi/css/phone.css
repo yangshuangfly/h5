@@ -1,0 +1,38 @@
+@charset="utf-8";
+body{
+	background:none;
+}
+#con .up ul{min-width:320px;}
+#header{
+	display:none;
+}
+body:before{
+	content:"绿色食品";
+	background-color:#009922;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font-size:26px;
+	font-weight:bold;
+	margin-bottom:1px;
+	letter-spacing:0.5em;
+}
+#nav ul{
+	background: -webkit-linear-gradient(top,#fff,#ededed);
+	height:auto;
+	min-width:320px;
+}
+#nav ul li{
+	background:none;
+	width:auto;
+	width:20%;
+	text-align:center;
+}
+#nav a {
+    color: green;
+    font: 14px/30px 微软雅黑;
+}
+.down .down01,.down02,.down03{margin:4px auto;}
